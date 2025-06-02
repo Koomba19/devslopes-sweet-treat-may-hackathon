@@ -3,7 +3,7 @@ While the repo was made earlier, I never really gave this any time. It's current
 
 ## Big Steps  
 
-- [ ] Layout
+- [x] Layout
 - [ ] Setting up Header
 - [ ] Setting up Footer
 - [ ] Laying out the aside
@@ -16,6 +16,7 @@ While the repo was made earlier, I never really gave this any time. It's current
 - [ ] Link the logic
 - [ ] Build Guy
 - [ ] Final Color and Happiness Touchup
+- [ ] Build a readme
 
 ## Extra Steps  
 To be made as they come up  
@@ -26,4 +27,9 @@ So grid the first 9 tiles.
 - Bottom row, Footer
 -  Center row: Cash Register, Flavor, Easel.  
 I'm thinking of trying to make it so that you can only pick one flavor and one kind of cone at a time, utilizing radio buttons on two input forms.  
-The footer will have a pretty picture under the flavor column, and a shoutout or something for under the register. A stylized price thingamajig will exist on the flavor counter.
+The footer will have a pretty picture under the flavor column, and a shoutout or something for under the register. A stylized price thingamajig will exist on the flavor counter.  
+Upon thinking longer on it, and messing with the grid. I'm thinking I should probably instead rename the grids, and leave out the semantic footer html tag.  
+
+## Random Thoughts  
+Layout in vscode is fun. Right now I have left third as these dev notes, right two-thirds/upper half the html, and right two-thirds/ bottom half css. I'm digging it.  
+We all lift together - Keith Power has no need to go that hard.

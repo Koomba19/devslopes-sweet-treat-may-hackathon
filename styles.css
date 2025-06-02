@@ -9,28 +9,38 @@ html, body {
     min-height: 100vh;
     grid-template: 
     "header header header"
-    "main main aside"
-    "footer footer footer";
-    grid-template-columns: 2fr 4fr 3fr;
-    grid-template-rows: 4fr 14fr 8fr;
+    "register flavor easel"
+    "below-register below-flavor easel";
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-rows: 2fr 6fr 3fr;
 }
 
-header {
+.header {
     grid-area: header;
     background-color: red;
 }
 
-main {
-    grid-area: main;
+.register {
+    grid-area: register;
     background-color: green;
 }
 
-aside {
-    grid-area: aside;
+.flavor {
+    grid-area: flavor;
+    background-color: yellow;
+}
+
+.easel {
+    grid-area: easel;
     background-color: blue;
 }
 
-footer {
-    grid-area: footer;
-    background-color: orange
+.below-register {
+    grid-area: below-register;
+    background-color: orange;
+}
+
+.below-flavor {
+    grid-area: below-flavor;
+    background-color: violet;
 }
