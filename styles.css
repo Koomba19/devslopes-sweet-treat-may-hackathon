@@ -13,15 +13,23 @@ html, body {
     "below-register below-flavor easel";
     grid-template-columns: 2fr 3fr 2fr;
     grid-template-rows: 2fr 6fr 3fr;
+    gap: 0px;
 }
 
 .header {
     grid-area: header;
-    background-color: red;
+    display: flex;
+    background-color: purple;
 }
 
+.header img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
 .register {
     grid-area: register;
+    display: flex;
     background-color: green;
 }
 
